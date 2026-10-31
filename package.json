@@ -1,0 +1,14 @@
+{
+  "name": "bootstrap-token-verifier",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Verify ES256 bootstrap JWTs",
+  "main": "verify_bootstrap_token.js",
+  "scripts": {
+    "start": "node verify_bootstrap_token.js",
+    "verify": "node verify_bootstrap_token.js"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2"
+  }
+}
